@@ -47,14 +47,6 @@
 ![Farm Screenshot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk3qE2X3yTUcEA3Ff9r7Kw_AZR3hdd650chw&s)
 *Build and customize your dream farm with animals, crops, and decorations*
 
-### Offline Gameplay
-![Offline Mode](https://i.imgur.com/OfflineGameplay.png)
-*Enjoy uninterrupted farming without internet connection*
-
-### Setup Assistant
-![Setup Interface](https://i.imgur.com/SetupAssistant.png)
-*Easy-to-use configuration tool for optimal gaming experience*
-
 ## 🚀 How to Install
 
 ### Quick Installation
