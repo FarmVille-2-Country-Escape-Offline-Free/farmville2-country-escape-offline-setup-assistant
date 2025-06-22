@@ -1,0 +1,33 @@
+# Site settings
+title: "FarmVille 2: Country Escape — Offline Setup Assistant"
+description: "🚜 Complete offline setup assistant for FarmVille 2: Country Escape - Play without internet connection or Facebook account"
+baseurl: "/farmville2-country-escape-offline-setup-assistant"
+url: "https://farmville-2-country-escape-offline-free.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "FarmVille-2-Country-Escape-Offline-Free"
+twitter:
+  username: farmville2offline
+  card: summary_large_image
+
+# Social
+github_username: FarmVille-2-Country-Escape-Offline-Free
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
