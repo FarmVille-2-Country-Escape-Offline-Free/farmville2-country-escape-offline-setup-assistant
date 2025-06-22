@@ -1,0 +1,362 @@
+# FarmVille 2 Offline Setup Assistant - .gitignore
+
+# ========================================
+# System Files
+# ========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================================
+# Development Environment
+# ========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# Application-Specific
+# ========================================
+
+# Setup Assistant Configuration
+config/local/
+user_config.json
+*.user.json
+last_config.json
+
+# Game Files (Never commit actual game content)
+game_files/
+assets/game/
+original_assets/
+extracted_assets/
+
+# User Data
+user_saves/
+backup_saves/
+profile_data/
+user_profiles/
+
+# Temporary Files
+temp/
+tmp/
+*.log
+*.backup
+*.old
+debug_output/
+crash_dumps/
+
+# Test Data
+test_saves/
+test_configs/
+test_output/
+
+# ========================================
+# Build & Distribution
+# ========================================
+
+# Build outputs
+build/
+dist/
+out/
+target/
+
+# Compiled binaries
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.appimage
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================================
+# Security & Credentials
+# ========================================
+
+# CRITICAL: Never commit credentials
+.internal/GITHUB_CREDENTIALS.md
+*.credentials
+*.key
+*.pem
+*.p12
+*.pfx
+api_keys.json
+secrets.json
+.env.local
+.env.production
+.env.staging
+
+# OAuth tokens
+oauth_token.json
+access_token.txt
+
+# ========================================
+# Documentation & Media
+# ========================================
+
+# Large media files (use Git LFS instead)
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.webm
+*.flv
+
+# High-resolution images (over 10MB)
+*_4k.png
+*_8k.png
+*_hires.jpg
+
+# Working files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xcf
+
+# Generated documentation
+docs/_build/
+site/
+_site/
+
+# ========================================
+# Testing & Quality Assurance
+# ========================================
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Linting
+.pylint.d/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ========================================
+# Platform-Specific Tools
+# ========================================
+
+# Unity (if using Unity for UI)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# ========================================
+# Monitoring & Analytics
+# ========================================
+
+# Application logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Performance monitoring
+*.trace
+*.prof
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
+
+# ========================================
+# Deployment & CI/CD
+# ========================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# GitHub Actions
+.github/workflows/*.secret.yml
+
+# Jenkins
+.jenkins/
+
+# ========================================
+# Miscellaneous
+# ========================================
+
+# Editor backups
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Thumbnails
+._*
+
+# Archive extraction directories
+archive_temp/
+extract_temp/
+
+# System monitoring
+.htop_history
+
+# ========================================
+# Project-Specific Ignores
+# ========================================
+
+# Setup Assistant Specific
+install_temp/
+extraction_workspace/
+game_version_cache/
+compatibility_reports/
+user_feedback/
+anonymous_metrics/
+
+# Translation files (work in progress)
+translations/drafts/
+*.po~
+*.pot~
+
+# Beta/Testing versions
+beta_builds/
+test_releases/
+experimental/
+
+# User-generated content
+user_mods/
+custom_configs/
+community_plugins/
+
+# ========================================
+# IMPORTANT NOTES
+# ========================================
+
+# Always commit:
+# - Source code files
+# - Documentation
+# - Configuration templates
+# - Default settings
+# - License and legal files
+
+# Never commit:
+# - User data or saves
+# - Credentials or API keys
+# - Large binary files
+# - Temporary or cache files
+# - Personal configuration files
+
+# ========================================
+# Exception Rules (Force Include)
+# ========================================
+
+# Include important documentation even if in ignored folders
+!docs/README.md
+!docs/index.md
+
+# Include sample configuration files
+!config/templates/
+!config/examples/
+
+# Include essential assets
+!assets/icons/
+!assets/logos/
+!assets/screenshots/sample*.png .internal/
+*.credentials

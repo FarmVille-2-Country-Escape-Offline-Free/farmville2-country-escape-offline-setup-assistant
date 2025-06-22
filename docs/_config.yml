@@ -1,0 +1,205 @@
+# Jekyll Configuration for FarmVille 2 Offline Setup Assistant Documentation
+
+# Site settings
+title: "FarmVille 2 Offline Setup Assistant"
+description: "Complete offline setup tool for FarmVille 2: Country Escape - no internet, no Facebook, no accounts required"
+baseurl: "/farmville2-country-escape-offline-setup-assistant"
+url: "https://FarmVille-2-Country-Escape-Offline-Free.github.io"
+
+# SEO and metadata
+author: "FarmVille 2 Offline Community"
+email: support@farmville2offline.com
+twitter_username: FarmVille2Free
+github_username: FarmVille-2-Country-Escape-Offline-Free
+
+# Repository info
+repository: FarmVille-2-Country-Escape-Offline-Free/farmville2-country-escape-offline-setup-assistant
+branch: main
+
+# Theme
+theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-relative-links
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+timezone: UTC
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+  - "*.credentials"
+
+# Include in processing
+include:
+  - .htaccess
+  - _pages
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "FarmVille 2 Community"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "docs"
+
+# Navigation
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "Setup Guide"
+    url: "/setup-guide/"
+  - name: "Troubleshooting"
+    url: "/troubleshooting/"
+  - name: "FAQ"
+    url: "/faq/"
+  - name: "Download"
+    url: "https://github.com/FarmVille-2-Country-Escape-Offline-Free/farmville2-country-escape-offline-setup-assistant/releases"
+    external: true
+
+# Social media
+social:
+  name: FarmVille 2 Offline Community
+  links:
+    - https://twitter.com/FarmVille2Free
+    - https://github.com/FarmVille-2-Country-Escape-Offline-Free
+    - https://discord.gg/farmville2offline
+
+# SEO optimization
+lang: en_US
+logo: /assets/images/logo.png
+image: /assets/images/social-preview.png
+
+# Google Analytics (optional - uncomment if needed)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Search functionality
+search: true
+search_full_content: true
+
+# Gaming-specific metadata
+game:
+  name: "FarmVille 2: Country Escape"
+  developer: "Zynga"
+  genre: "Farming Simulation"
+  platforms: ["Windows", "macOS", "Linux"]
+  features:
+    - "Offline Play"
+    - "No Internet Required"
+    - "Privacy Focused"
+    - "Cross-Platform"
+    - "Open Source Setup"
+
+# Features
+features:
+  - title: "100% Offline"
+    description: "Play without internet connection"
+    icon: "🌐"
+  - title: "No Accounts"
+    description: "No Facebook or registration required"
+    icon: "🔐"
+  - title: "Privacy First"
+    description: "No data collection or tracking"
+    icon: "🛡️"
+  - title: "Cross-Platform"
+    description: "Works on Windows, Mac, and Linux"
+    icon: "💻"
+
+# Keywords for SEO
+keywords:
+  - farmville 2 offline
+  - country escape offline
+  - farmville no internet
+  - farming game offline
+  - zynga games offline
+  - farmville 2 setup assistant
+  - offline farming simulator
+  - country escape no login
+  - farmville privacy
+  - farming game no ads
+
+# Sitemap configuration
+sitemap:
+  lastmod: 2024-01-15
+  priority: 1.0
+  changefreq: weekly
+  exclude:
+    - /404.html
+    - /search.html
+
+# Feed configuration
+feed:
+  posts_limit: 10
+  excerpt_only: true
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [html, head, body]
+  blanklines: false
+  profile: false
+  ignore:
+    envs: [development]
+
+# Performance
+future: false
+show_drafts: false
+limit_posts: 0
+
+# Build optimization
+incremental: true
+profile: false
+strict_front_matter: true
+
+# Custom variables
+custom:
+  version: "2.1.0"
+  last_updated: "2024-01-15"
+  support_email: "support@farmville2offline.com"
+  discord_invite: "https://discord.gg/farmville2offline"
+  github_repo: "https://github.com/FarmVille-2-Country-Escape-Offline-Free/farmville2-country-escape-offline-setup-assistant"
+  download_url: "https://github.com/FarmVille-2-Country-Escape-Offline-Free/farmville2-country-escape-offline-setup-assistant/releases/latest" 

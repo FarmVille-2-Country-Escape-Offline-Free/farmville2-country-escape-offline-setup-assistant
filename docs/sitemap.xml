@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        
+  <!-- Main Pages -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/setup-guide/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/troubleshooting/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/faq/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Configuration Guides -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/display-settings/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/audio-settings/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/controls-setup/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/advanced-settings/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Gaming Features -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/offline-gameplay/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/save-management/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/customization/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/performance/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Platform-Specific Guides -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/windows-setup/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/macos-setup/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/linux-setup/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/steam-deck/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Technical Information -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/architecture/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/file-structure/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/security/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/api-reference/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+  <!-- Quick Start -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/quick-start/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/system-requirements/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Support Pages -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/support/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Alternative Spellings and Keywords for SEO -->
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/farmville-2-offline/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/country-escape-offline/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/farming-game-offline/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/no-internet-farming/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://farmville-2-country-escape-offline-free.github.io/farmville2-country-escape-offline-setup-assistant/privacy-farming-game/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>rarely</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset> 
